@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="lv">
+<head>
+    <meta charset="UTF-8">
+    <title>Something Simple SIA</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            font-size: 22px; /* большой текст */
+            line-height: 1.5;
+        }
+        header {
+            background: #fff;
+            padding: 20px 40px;
+            position: fixed;
+            width: 100%;
+            top: 0;
+            border-bottom: 1px solid #ddd;
+            z-index: 10;
+        }
+        header nav a {
+            margin-right: 30px;
+            text-decoration: none;
+            color: #333;
+            font-weight: bold;
+            font-size: 22px;
+        }
+        section {
+            padding: 100px 40px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+        .full-screen {
+            height: 100vh;
+        }
+        .text-block {
+            width: 55%;
+        }
+        .image-block {
+            width: 40%;
+        }
+        img {
+            width: 100%;
+            border-radius: 10px;
+        }
+        h2 {
+            font-size: 34px;
+            margin-bottom: 20px;
+        }
+        h1 {
+            font-size: 46px;
+        }
+        .column {
+            width: 30%;
+        }
+        .advantages, .process {
+            display: flex;
+            justify-content: space-between;
+        }
+        footer {
+            padding: 40px;
+            background: #f4f4f4;
+            text-align: center;
+            font-size: 20px;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <nav>
+        <a href="#hero">Sākums</a>
+        <a href="#about">Par mums</a>
+        <a href="#services">Pakalpojumi</a>
+        <a href="#advantages">Priekšrocības</a>
+        <a href="#process">Mūsu process</a>
+        <a href="#contacts">Kontakti</a>
+    </nav>
+</header>
+
+<!-- 1. GALVENAIS EKRĀNS -->
+<section id="hero" class="full-screen">
+    <div class="text-block">
+        <h1>Something Simple SIA</h1>
+        <p><strong>Mēs palīdzam uzņēmumiem attīstīties, optimizēt procesus un atrast jaunus izaugsmes virzienus.</strong> Mūsu komanda specializējas biznesa atbalsta pakalpojumos, mārketinga stratēģijās un nekustamo īpašumu konsultācijās. Mēs radām vienkāršus, bet efektīvus risinājumus, kas palīdz klientiem sasniegt vairāk.</p>
+    </div>
+    <div class="image-block">
+        <img src="https://images.unsplash.com/photo-1759428935131-cee6cd331234?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Business teamwork">
+    </div>
+</section>
+
+<!-- 2. PAR MUMS -->
+<section id="about">
+    <div class="text-block">
+        <h2>Kas mēs patiesībā darām</h2>
+        <p>Something Simple SIA ir uzņēmums, kas fokusējas uz praktiskiem un rezultatīviem biznesa risinājumiem. Mūsu mērķis ir palīdzēt klientiem sakārtot biznesa procesus, radīt skaidras mārketinga sistēmas un pieņemt pārdomātus lēmumus nekustamo īpašumu jomā. Mēs strādājam ar uzņēmumiem, kuriem svarīgs ir caurspīdīgums, precizitāte un pielāgoti risinājumi. Katrs projekts mums ir sadarbība, kur galvenais ir klients un viņa mērķi. Mēs pieejam darbam ar atbildību, rūpību un ilgtermiņa domāšanu.</p>
+    </div>
+</section>
+
+<!-- 3. SERVISI -->
+<section id="services">
+    <div class="text-block">
+        <h2>Mūsu praktiskie risinājumi</h2>
+
+        <h3>Biznesa atbalsta pakalpojumi</h3>
+        <p>Mēs palīdzam uzņēmumiem strukturēt ikdienas darbību, optimizēt procesus un ieviest sistēmas, kas uzlabo darba efektivitāti. Strādājam ar dokumentāciju, organizatoriskiem procesiem un biznesa struktūru. Mūsu pieeja palīdz samazināt haosu un radīt sakārtotu darba vidi.</p>
+
+        <h3>Mārketinga konsultācijas un stratēģijas</h3>
+        <p>Mēs izstrādājam pārdomātas un datus balstītas mārketinga stratēģijas. Palīdzam uzņēmumiem atrast savu pozicionējumu tirgū un izveidot ilgtspējīgu komunikācijas sistēmu. Piedāvājam radošus un praktiski lietojamus risinājumus, kas nes reālus rezultātus.</p>
+
+        <h3>Nekustamo īpašumu konsultācijas</h3>
+        <p>Mēs sniedzam atbalstu gan investoriem, gan uzņēmumiem, kas meklē biroju, noliktavu vai komerctelpas. Izvērtējam objektu atbilstību, potenciālu un riskus. Mūsu mērķis ir palīdzēt klientam pieņemt drošus un pārdomātus lēmumus.</p>
+    </div>
+
+    <div class="image-block">
+        <img src="https://images.unsplash.com/photo-1486406146926-c627a92ad1ab" alt="Services">
+    </div>
+</section>
+
+<!-- 4. PRIEKŠROCĪBAS -->
+<section id="advantages">
+    <div class="text-block">
+        <h2>Kāpēc klienti izvēlas mūs</h2>
+        <div class="advantages">
+            <div class="column">
+                <h3>Pielāgoti risinājumi</h3>
+                <p>Mēs nepiedāvājam gatavas formulas – viss tiek pielāgots konkrētam uzņēmumam un situācijai.</p>
+            </div>
+            <div class="column">
+                <h3>Praktiska pieeja</h3>
+                <p>Mēs strādājam ar reālām metodēm, kas uzlabo procesus, nevis sarežģī tos.</p>
+            </div>
+            <div class="column">
+                <h3>Ilgtermiņa domāšana</h3>
+                <p>Mūsu mērķis ir nodrošināt stabilu pamatu uzņēmuma nākotnes izaugsmei un attīstībai.</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- 5. PROCESS -->
+<section id="process">
+    <div class="text-block">
+        <h2>Kā notiek sadarbība</h2>
+        <div class="process">
+            <div class="column">
+                <h3>1. Analīze un izpēte</h3>
+                <p>Mēs iepazīstamies ar uzņēmumu, tā procesiem un mērķiem, lai saprastu reālās vajadzības.</p>
+            </div>
+            <div class="column">
+                <h3>2. Stratēģijas izveide</h3>
+                <p>Izstrādājam pielāgotu rīcības plānu, balstoties uz datiem, tirgus situāciju un biznesa specifiku.</p>
+            </div>
+            <div class="column">
+                <h3>3. Ieviešana un atbalsts</h3>
+                <p>Palīdzam ieviest izstrādātos risinājumus un nodrošinām atbalstu, lai sasniegtie rezultāti būtu ilgtermiņa.</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- 6. KONTAKTI -->
+<section id="contacts" class="full-screen">
+    <div class="text-block">
+        <h2>Sazinies ar mums</h2>
+        <p>Mēs vienmēr esam gatavi atbildēt uz jautājumiem un palīdzēt atrast labāko risinājumu jūsu situācijai. Rakstiet mums, ja vēlaties uzsākt sadarbību vai saņemt konsultāciju – atbildēsim personīgi un rūpīgi.</p>
+        <p><strong>info@somethingsimple.pro</strong><br>
+        <strong>12 - 22 Jaunlazdu iela, Krustkalni, Kekavas pagasts, Kekavas novads, LV-2111</strong></p>
+    </div>
+</section>
+
+<footer>
+    © 2025 Something Simple SIA — Viedi risinājumi vienkāršākai biznesa ikdienai.
+</footer>
+
+</body>
+</html>
